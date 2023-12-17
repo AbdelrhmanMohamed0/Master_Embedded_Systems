@@ -21,7 +21,7 @@
 #include <stdlib.h>
 #include "Platform_Types.h"
 
-#define RCC_Base                0x40021000
+#define RCC_Base                 0x40021000
 #define PORTA_Base               0x40010800
 #define RCC_APB2ENR_Regester    *(vuint32_t *)(RCC_Base+0x18)
 #define GPIO_CRH_Regester       *(vuint32_t *)(PORTA_Base+0x04)

@@ -184,7 +184,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x16 Src/syscalls.o
  .debug_macro   0x0000000000000000       0x88 Src/syscalls.o
  .debug_line    0x0000000000000000      0x739 Src/syscalls.o
- .debug_str     0x0000000000000000     0x887a Src/syscalls.o
+ .debug_str     0x0000000000000000     0x8887 Src/syscalls.o
  .comment       0x0000000000000000       0x7c Src/syscalls.o
  .debug_frame   0x0000000000000000      0x2ac Src/syscalls.o
  .ARM.attributes
@@ -240,7 +240,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a Src/sysmem.o
  .debug_macro   0x0000000000000000      0x1df Src/sysmem.o
  .debug_line    0x0000000000000000      0x4c2 Src/sysmem.o
- .debug_str     0x0000000000000000     0x5f48 Src/sysmem.o
+ .debug_str     0x0000000000000000     0x5f55 Src/sysmem.o
  .comment       0x0000000000000000       0x7c Src/sysmem.o
  .debug_frame   0x0000000000000000       0x34 Src/sysmem.o
  .ARM.attributes
@@ -618,11 +618,11 @@ OUTPUT(test1.elf elf32-littlearm)
  .debug_line    0x0000000000000000      0x5c2 Src/main.o
  .debug_line    0x00000000000005c2       0x84 Startup/startup_stm32f103c6tx.o
 
-.debug_str      0x0000000000000000     0x8102
- .debug_str     0x0000000000000000     0x80d1 Src/main.o
-                                       0x8328 (size before relaxing)
- .debug_str     0x00000000000080d1       0x31 Startup/startup_stm32f103c6tx.o
-                                         0x75 (size before relaxing)
+.debug_str      0x0000000000000000     0x810f
+ .debug_str     0x0000000000000000     0x80de Src/main.o
+                                       0x8335 (size before relaxing)
+ .debug_str     0x00000000000080de       0x31 Startup/startup_stm32f103c6tx.o
+                                         0x82 (size before relaxing)
 
 .comment        0x0000000000000000       0x7b
  .comment       0x0000000000000000       0x7b Src/main.o

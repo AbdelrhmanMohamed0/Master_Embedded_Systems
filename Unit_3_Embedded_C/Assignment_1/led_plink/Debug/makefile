@@ -48,8 +48,8 @@ test1.bin \
 all: test1.elf secondary-outputs
 
 # Tool invocations
-test1.elf: $(OBJS) $(USER_OBJS) C:\Users\CRIZMA\ MEGA\ STORE\STM32CubeIDE\workspace_1.4.0\test1\STM32F103C6TX_FLASH.ld
-	arm-none-eabi-gcc -o "test1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\CRIZMA MEGA STORE\STM32CubeIDE\workspace_1.4.0\test1\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+test1.elf: $(OBJS) $(USER_OBJS) B:\github\Master_Embedded_Systems\Unit_3_Embedded_C\Assignment_1\led_plink\STM32F103C6TX_FLASH.ld
+	arm-none-eabi-gcc -o "test1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"B:\github\Master_Embedded_Systems\Unit_3_Embedded_C\Assignment_1\led_plink\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
