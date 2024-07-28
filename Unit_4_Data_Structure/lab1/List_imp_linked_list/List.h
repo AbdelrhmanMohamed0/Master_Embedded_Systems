@@ -3,8 +3,6 @@
 #ifndef LIST_H // Include guard to prevent multiple inclusion
 #define LIST_H
 
-#include <stdbool.h> // For bool type
-
 typedef unsigned int u32; // Alias for unsigned int
 #define ELEMENT_TYPE u32  // Type of elements in the LIST
 
@@ -21,6 +19,12 @@ typedef struct list
     List_Node *head, *current;
     int size, current_pos;
 } List;
+
+typedef enum
+{
+    false=0,
+    true
+} bool;
 
 // Function prototypes
 
@@ -51,10 +55,21 @@ void traverse_list_as_queue(List *plist, void (*func)(ELEMENT_TYPE));
 // Traverse the list as stack and apply a function to each element
 void traverse_list_as_stack(List *plist, void (*func)(ELEMENT_TYPE));
 
+//bubble sort the list
+void bubble_sort(List *plist);
+
+//get the position of an element
+int get_position(List *plist, ELEMENT_TYPE element);
+
 // Get the size of the list
 u32 size_list(List *plist);
 
 // Clear the list
 void clear_list(List *plist);
 
+
+/*
+//search for an element use it but your data will be sorted after search
+int search_index(List *plist, ELEMENT_TYPE element);
+*/
 #endif

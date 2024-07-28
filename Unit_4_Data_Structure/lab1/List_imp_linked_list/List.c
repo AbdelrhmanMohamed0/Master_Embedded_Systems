@@ -2,7 +2,8 @@
 
 #include "List.h"   // Include header file
 #include <stdio.h>  // For input/output functions
-#include <stdlib.h> // For exit function
+#include <stdlib.h> // For dynamic memory allocation
+
 // Initialize the list
 void list_init(List *plist)
 {
@@ -45,40 +46,52 @@ bool insert_list(List *plist, ELEMENT_TYPE element, int pos)
         plist->head = ptr;
         plist->current = plist->head;
         plist->current_pos = 0;
+        ptr->previous = NULL;
     }
     else
     {
-            if (pos <= plist->current_pos)
+        if (pos <= plist->current_pos)
+        {
+            while (plist->current_pos != pos)
             {
-                while (plist->current_pos != pos-1)
-                {
-                    plist->current = plist->current->previous;
-                    plist->current_pos--;
-                }
+                plist->current = plist->current->previous;
+                plist->current_pos--;
             }
-            else
-            {
-                while (plist->current_pos != pos-1)
-                {
-                    plist->current = plist->current->next;
-                    plist->current_pos++;
-                }
-            }
-            if (!(plist->current->next))
-            {
-                ptr->next = NULL;
-                ptr->previous = plist->current;
-                plist->current->next = ptr;
-                plist->current = ptr;
-                plist->current_pos++;
-            }
-            else{
             ptr->next = plist->current;
             ptr->previous = plist->current->previous;
+            plist->current->previous->next = ptr;
             plist->current->previous = ptr;
             plist->current = ptr;
-            plist->current->previous->next = ptr;
+        }
+        else
+        {
+            while (plist->current_pos != pos)
+            {
+                if (!(plist->current->next))
+                {
+                    ptr->next = NULL;
+                    ptr->previous = plist->current;
+                    plist->current->next = ptr;
+                    plist->current = ptr;
+                }
+                else
+                {
+                    if (plist->current_pos == pos - 1)
+                    {
+                        ptr->next = plist->current->next;
+                        ptr->next->previous = ptr;
+                        plist->current->next = ptr;
+                        ptr->previous = plist->current;
+                        plist->current = ptr;
+                    }
+                    else
+                    {
+                        plist->current = plist->current->next;
+                    }
+                }
+                plist->current_pos++;
             }
+        }
     }
     plist->size++;
     return true;
@@ -122,14 +135,7 @@ bool delete_list(List *plist, ELEMENT_TYPE *element, int pos)
         ptr->next = plist->current->next;
         if (plist->current->next)
         {
-            ptr = plist->current->next;
-            ptr->previous = plist->current->previous;
-            ptr = plist->current->previous;
-        }
-        else
-        {
-            ptr = plist->current->previous;
-            ptr->next = NULL;
+            plist->current->next->previous = ptr;
         }
         free(plist->current);
         plist->current = ptr;
@@ -228,6 +234,49 @@ void traverse_list_as_queue(List *plist, void (*func)(ELEMENT_TYPE))
     }
 }
 
+// bubble sort the list
+void bubble_sort(List *plist)
+{
+    if (!list_empty(plist))
+    {
+        List_Node *ptr = plist->head;
+        ELEMENT_TYPE temp;
+        for (int i = 0; i < plist->size; i++)
+        {
+            ptr = plist->head;
+            for (int j = 0; j < plist->size - 1; j++)
+            {
+                if (ptr->data > ptr->next->data)
+                {
+                    temp = ptr->data;
+                    ptr->data = ptr->next->data;
+                    ptr->next->data = temp;
+                }
+                ptr = ptr->next;
+            }
+        }
+    }
+}
+
+int get_position(List *plist, ELEMENT_TYPE element)
+{
+    if (!list_empty(plist))
+    {
+        List_Node *ptr = plist->head;
+        int index = 0;
+        while (ptr)
+        {
+            if (ptr->data == element)
+            {
+                return index;
+            }
+            ptr = ptr->next;
+            index++;
+        }
+    }
+    return -1;
+}
+
 // Get the size of the list
 u32 size_list(List *plist)
 {
@@ -249,3 +298,42 @@ void clear_list(List *plist)
     plist->current_pos = -1;
     plist->current = NULL;
 }
+
+/*
+// this will change data of the list
+// binary search for an element
+int search_index(List *plist, ELEMENT_TYPE element)
+{
+    if (!list_empty(plist))
+    {
+        List_Node *ptr = plist->head;
+        int index = 0;
+        int low = 0;
+        int high = plist->size - 1;
+        int mid;
+        bubble_sort(plist);
+        while (low <= high)
+        {
+            mid = (low + high) / 2;
+            if (retrieve_list(plist, &element, mid))
+            {
+                if (element == ptr->data)
+                {
+                    return mid;
+                }
+                else if (element < ptr->data)
+                {
+                    high = mid - 1;
+                }
+                else
+                {
+                    low = mid + 1;
+                }
+            }
+        }
+    }
+    return -1;
+}
+
+
+*/

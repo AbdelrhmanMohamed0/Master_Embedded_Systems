@@ -1,0 +1,406 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+<line  x1="87" y1="50" x2="162" y2="50" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="50" x2="125" y2="65" stroke="#333333" stroke-width="1" fill="none"/>
+<text  x="117" y="48" style="font-size:12; font-family:Dialog.plain; fill=#333333">CA</text>
+<line  x1="237" y1="50" x2="312" y2="50" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="50" x2="275" y2="65" stroke="#333333" stroke-width="1" fill="none"/>
+<text  x="247" y="48" style="font-size:12; font-family:Dialog.plain; fill=#333333">DC_Motor</text>
+<line  x1="387" y1="50" x2="462" y2="50" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="50" x2="425" y2="65" stroke="#333333" stroke-width="1" fill="none"/>
+<text  x="393" y="48" style="font-size:12; font-family:Dialog.plain; fill=#333333">US_Sensor</text>
+<text  x="10" y="73" style="font-size:12; font-family:Dialog.plain; fill=#333333">@0</text>
+<line  x1="125" y1="65" x2="125" y2="75" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="104" y="75" width="43" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="104" y="75" width="43" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="106" y="91" style="font-size:12; font-family:Dialog.plain; fill=#333333">waiting</text>
+<line  x1="125" y1="95" x2="125" y2="105" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="65" x2="275" y2="105" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="65" x2="425" y2="105" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="105" x2="275" y2="115" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="253" y="115" width="45" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="253" y="115" width="45" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="255" y="131" style="font-size:12; font-family:Dialog.plain; fill=#333333">DC_init</text>
+<line  x1="275" y1="135" x2="275" y2="145" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="105" x2="125" y2="145" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="105" x2="425" y2="145" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="145" x2="275" y2="155" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="261" y="155" width="29" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="261" y="155" width="29" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="263" y="171" style="font-size:12; font-family:Dialog.plain; fill=#333333">Start</text>
+<line  x1="275" y1="175" x2="275" y2="185" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="145" x2="125" y2="185" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="145" x2="425" y2="185" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="185" x2="425" y2="195" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="402" y="195" width="47" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="402" y="195" width="47" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="404" y="211" style="font-size:12; font-family:Dialog.plain; fill=#333333">US_iniit</text>
+<line  x1="425" y1="215" x2="425" y2="225" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="185" x2="125" y2="225" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="185" x2="275" y2="225" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="225" x2="425" y2="235" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="410" y="235" width="30" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="410" y="235" width="30" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="412" y="251" style="font-size:12; font-family:Dialog.plain; fill=#333333">busy</text>
+<line  x1="425" y1="255" x2="425" y2="265" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="225" x2="125" y2="265" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="225" x2="275" y2="265" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="265" x2="425" y2="275" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="385" y="275" width="80" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="385" y="275" width="80" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="387" y="291" style="font-size:12; font-family:Dialog.plain; fill=#333333">Distance = 50</text>
+<line  x1="425" y1="295" x2="425" y2="305" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="265" x2="125" y2="305" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="265" x2="275" y2="305" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="314" x2="275" y2="314" stroke="#80b4cd" stroke-width="1" fill="none"/>
+<line  x1="125" y1="315" x2="275" y2="315" stroke="#333333" stroke-width="1" fill="none"/>
+<polygon  points="275,315 266,319 266,310 " fill="#333333"/>
+<polygon  points="275,315 266,319 266,310 " fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="153" y="313" style="font-size:12; font-family:Dialog.plain; fill=#333333">DC_Motor_Set(0)</text>
+<line  x1="275" y1="305" x2="275" y2="325" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="305" x2="125" y2="325" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="305" x2="425" y2="325" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="325" x2="275" y2="335" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="261" y="335" width="28" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="261" y="335" width="28" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="263" y="351" style="font-size:12; font-family:Dialog.plain; fill=#333333">stop</text>
+<line  x1="275" y1="355" x2="275" y2="365" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="325" x2="125" y2="365" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="325" x2="425" y2="365" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="365" x2="275" y2="375" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="261" y="375" width="29" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="261" y="375" width="29" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="263" y="391" style="font-size:12; font-family:Dialog.plain; fill=#333333">Start</text>
+<line  x1="275" y1="395" x2="275" y2="405" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="365" x2="125" y2="405" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="365" x2="425" y2="405" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="414" x2="125" y2="414" stroke="#80b4cd" stroke-width="1" fill="none"/>
+<line  x1="425" y1="415" x2="125" y2="415" stroke="#333333" stroke-width="1" fill="none"/>
+<polygon  points="125,415 133,410 133,419 " fill="#333333"/>
+<polygon  points="125,415 133,410 133,419 " fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="215" y="413" style="font-size:12; font-family:Dialog.plain; fill=#333333">US_Get_Distance(50)</text>
+<line  x1="125" y1="405" x2="125" y2="425" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="405" x2="275" y2="425" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="405" x2="425" y2="425" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="425" x2="425" y2="435" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="410" y="435" width="30" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="410" y="435" width="30" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="412" y="451" style="font-size:12; font-family:Dialog.plain; fill=#333333">busy</text>
+<line  x1="425" y1="455" x2="425" y2="465" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="425" x2="125" y2="465" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="425" x2="275" y2="465" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="465" x2="125" y2="475" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="475" width="61" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="95" y="475" width="61" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="491" style="font-size:12; font-family:Dialog.plain; fill=#333333">choice__1</text>
+<line  x1="125" y1="495" x2="125" y2="505" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="465" x2="275" y2="505" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="465" x2="425" y2="505" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="505" x2="425" y2="515" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="385" y="515" width="80" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="385" y="515" width="80" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="387" y="531" style="font-size:12; font-family:Dialog.plain; fill=#333333">Distance = 52</text>
+<line  x1="425" y1="535" x2="425" y2="545" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="505" x2="125" y2="545" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="505" x2="275" y2="545" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="545" width="60" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="95" y="545" width="60" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="561" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">Speed = 0</text>
+<line  x1="125" y1="565" x2="125" y2="575" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="545" x2="275" y2="575" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="545" x2="425" y2="575" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="575" x2="125" y2="585" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="104" y="585" width="43" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="104" y="585" width="43" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="106" y="601" style="font-size:12; font-family:Dialog.plain; fill=#333333">waiting</text>
+<line  x1="125" y1="605" x2="125" y2="615" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="575" x2="275" y2="615" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="575" x2="425" y2="615" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="624" x2="275" y2="624" stroke="#80b4cd" stroke-width="1" fill="none"/>
+<line  x1="125" y1="625" x2="275" y2="625" stroke="#333333" stroke-width="1" fill="none"/>
+<polygon  points="275,625 266,629 266,620 " fill="#333333"/>
+<polygon  points="275,625 266,629 266,620 " fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="153" y="623" style="font-size:12; font-family:Dialog.plain; fill=#333333">DC_Motor_Set(0)</text>
+<line  x1="275" y1="615" x2="275" y2="635" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="615" x2="125" y2="635" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="615" x2="425" y2="635" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="635" x2="275" y2="645" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="261" y="645" width="28" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="261" y="645" width="28" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="263" y="661" style="font-size:12; font-family:Dialog.plain; fill=#333333">stop</text>
+<line  x1="275" y1="665" x2="275" y2="675" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="635" x2="125" y2="675" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="635" x2="425" y2="675" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="675" x2="275" y2="685" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="261" y="685" width="29" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="261" y="685" width="29" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="263" y="701" style="font-size:12; font-family:Dialog.plain; fill=#333333">Start</text>
+<line  x1="275" y1="705" x2="275" y2="715" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="675" x2="125" y2="715" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="675" x2="425" y2="715" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="724" x2="125" y2="724" stroke="#80b4cd" stroke-width="1" fill="none"/>
+<line  x1="425" y1="725" x2="125" y2="725" stroke="#333333" stroke-width="1" fill="none"/>
+<polygon  points="125,725 133,720 133,729 " fill="#333333"/>
+<polygon  points="125,725 133,720 133,729 " fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="215" y="723" style="font-size:12; font-family:Dialog.plain; fill=#333333">US_Get_Distance(52)</text>
+<line  x1="125" y1="715" x2="125" y2="735" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="715" x2="275" y2="735" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="715" x2="425" y2="735" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="735" x2="425" y2="745" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="410" y="745" width="30" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="410" y="745" width="30" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="412" y="761" style="font-size:12; font-family:Dialog.plain; fill=#333333">busy</text>
+<line  x1="425" y1="765" x2="425" y2="775" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="735" x2="125" y2="775" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="735" x2="275" y2="775" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="775" x2="125" y2="785" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="785" width="61" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="95" y="785" width="61" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="801" style="font-size:12; font-family:Dialog.plain; fill=#333333">choice__1</text>
+<line  x1="125" y1="805" x2="125" y2="815" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="775" x2="275" y2="815" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="775" x2="425" y2="815" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="92" y="815" width="67" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="92" y="815" width="67" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="94" y="831" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">Speed = 30</text>
+<line  x1="125" y1="835" x2="125" y2="845" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="815" x2="275" y2="845" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="815" x2="425" y2="845" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="845" x2="125" y2="855" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="105" y="855" width="40" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="105" y="855" width="40" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="107" y="871" style="font-size:12; font-family:Dialog.plain; fill=#333333">driving</text>
+<line  x1="125" y1="875" x2="125" y2="885" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="845" x2="275" y2="885" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="845" x2="425" y2="885" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="894" x2="275" y2="894" stroke="#80b4cd" stroke-width="1" fill="none"/>
+<line  x1="125" y1="895" x2="275" y2="895" stroke="#333333" stroke-width="1" fill="none"/>
+<polygon  points="275,895 266,899 266,890 " fill="#333333"/>
+<polygon  points="275,895 266,899 266,890 " fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="149" y="893" style="font-size:12; font-family:Dialog.plain; fill=#333333">DC_Motor_Set(30)</text>
+<line  x1="275" y1="885" x2="275" y2="905" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="885" x2="125" y2="905" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="885" x2="425" y2="905" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="905" x2="275" y2="915" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="261" y="915" width="28" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="261" y="915" width="28" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="263" y="931" style="font-size:12; font-family:Dialog.plain; fill=#333333">stop</text>
+<line  x1="275" y1="935" x2="275" y2="945" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="905" x2="125" y2="945" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="905" x2="425" y2="945" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="945" x2="275" y2="955" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="261" y="955" width="29" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="261" y="955" width="29" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="263" y="971" style="font-size:12; font-family:Dialog.plain; fill=#333333">Start</text>
+<line  x1="275" y1="975" x2="275" y2="985" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="945" x2="125" y2="985" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="945" x2="425" y2="985" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="985" x2="425" y2="995" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="385" y="995" width="80" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="385" y="995" width="80" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="387" y="1011" style="font-size:12; font-family:Dialog.plain; fill=#333333">Distance = 49</text>
+<line  x1="425" y1="1015" x2="425" y2="1025" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="985" x2="125" y2="1025" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="985" x2="275" y2="1025" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1034" x2="125" y2="1034" stroke="#80b4cd" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1035" x2="125" y2="1035" stroke="#333333" stroke-width="1" fill="none"/>
+<polygon  points="125,1035 133,1030 133,1039 " fill="#333333"/>
+<polygon  points="125,1035 133,1030 133,1039 " fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="215" y="1033" style="font-size:12; font-family:Dialog.plain; fill=#333333">US_Get_Distance(49)</text>
+<line  x1="125" y1="1025" x2="125" y2="1045" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="1025" x2="275" y2="1045" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1025" x2="425" y2="1045" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1045" x2="425" y2="1055" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="410" y="1055" width="30" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="410" y="1055" width="30" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="412" y="1071" style="font-size:12; font-family:Dialog.plain; fill=#333333">busy</text>
+<line  x1="425" y1="1075" x2="425" y2="1085" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1045" x2="125" y2="1085" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="1045" x2="275" y2="1085" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1085" x2="125" y2="1095" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="1095" width="61" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="95" y="1095" width="61" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="1111" style="font-size:12; font-family:Dialog.plain; fill=#333333">choice__0</text>
+<line  x1="125" y1="1115" x2="125" y2="1125" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="1085" x2="275" y2="1125" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1085" x2="425" y2="1125" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1125" x2="425" y2="1135" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="385" y="1135" width="80" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="385" y="1135" width="80" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="387" y="1151" style="font-size:12; font-family:Dialog.plain; fill=#333333">Distance = 50</text>
+<line  x1="425" y1="1155" x2="425" y2="1165" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1125" x2="125" y2="1165" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="1125" x2="275" y2="1165" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="1165" width="60" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="95" y="1165" width="60" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="1181" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">Speed = 0</text>
+<line  x1="125" y1="1185" x2="125" y2="1195" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="1165" x2="275" y2="1195" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1165" x2="425" y2="1195" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1195" x2="125" y2="1205" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="104" y="1205" width="43" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="104" y="1205" width="43" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="106" y="1221" style="font-size:12; font-family:Dialog.plain; fill=#333333">waiting</text>
+<line  x1="125" y1="1225" x2="125" y2="1235" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="1195" x2="275" y2="1235" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1195" x2="425" y2="1235" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1244" x2="275" y2="1244" stroke="#80b4cd" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1245" x2="275" y2="1245" stroke="#333333" stroke-width="1" fill="none"/>
+<polygon  points="275,1245 266,1249 266,1240 " fill="#333333"/>
+<polygon  points="275,1245 266,1249 266,1240 " fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="153" y="1243" style="font-size:12; font-family:Dialog.plain; fill=#333333">DC_Motor_Set(0)</text>
+<line  x1="275" y1="1235" x2="275" y2="1255" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1235" x2="125" y2="1255" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1235" x2="425" y2="1255" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="1255" x2="275" y2="1265" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="261" y="1265" width="28" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="261" y="1265" width="28" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="263" y="1281" style="font-size:12; font-family:Dialog.plain; fill=#333333">stop</text>
+<line  x1="275" y1="1285" x2="275" y2="1295" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1255" x2="125" y2="1295" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1255" x2="425" y2="1295" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="1295" x2="275" y2="1305" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="261" y="1305" width="29" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="261" y="1305" width="29" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="263" y="1321" style="font-size:12; font-family:Dialog.plain; fill=#333333">Start</text>
+<line  x1="275" y1="1325" x2="275" y2="1335" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1295" x2="125" y2="1335" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1295" x2="425" y2="1335" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1344" x2="125" y2="1344" stroke="#80b4cd" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1345" x2="125" y2="1345" stroke="#333333" stroke-width="1" fill="none"/>
+<polygon  points="125,1345 133,1340 133,1349 " fill="#333333"/>
+<polygon  points="125,1345 133,1340 133,1349 " fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="215" y="1343" style="font-size:12; font-family:Dialog.plain; fill=#333333">US_Get_Distance(50)</text>
+<line  x1="125" y1="1335" x2="125" y2="1355" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="1335" x2="275" y2="1355" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1335" x2="425" y2="1355" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1355" x2="425" y2="1365" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="410" y="1365" width="30" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="410" y="1365" width="30" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="412" y="1381" style="font-size:12; font-family:Dialog.plain; fill=#333333">busy</text>
+<line  x1="425" y1="1385" x2="425" y2="1395" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1355" x2="125" y2="1395" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="1355" x2="275" y2="1395" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1395" x2="125" y2="1405" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="1405" width="61" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="95" y="1405" width="61" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="1421" style="font-size:12; font-family:Dialog.plain; fill=#333333">choice__1</text>
+<line  x1="125" y1="1425" x2="125" y2="1435" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="1395" x2="275" y2="1435" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1395" x2="425" y2="1435" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1435" x2="425" y2="1445" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="385" y="1445" width="80" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="385" y="1445" width="80" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="387" y="1461" style="font-size:12; font-family:Dialog.plain; fill=#333333">Distance = 53</text>
+<line  x1="425" y1="1465" x2="425" y2="1475" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1435" x2="125" y2="1475" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="1435" x2="275" y2="1475" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="1475" width="60" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="95" y="1475" width="60" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="1491" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">Speed = 0</text>
+<line  x1="125" y1="1495" x2="125" y2="1505" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="1475" x2="275" y2="1505" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1475" x2="425" y2="1505" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1505" x2="125" y2="1515" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="104" y="1515" width="43" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="104" y="1515" width="43" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="106" y="1531" style="font-size:12; font-family:Dialog.plain; fill=#333333">waiting</text>
+<line  x1="125" y1="1535" x2="125" y2="1545" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="1505" x2="275" y2="1545" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1505" x2="425" y2="1545" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1554" x2="275" y2="1554" stroke="#80b4cd" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1555" x2="275" y2="1555" stroke="#333333" stroke-width="1" fill="none"/>
+<polygon  points="275,1555 266,1559 266,1550 " fill="#333333"/>
+<polygon  points="275,1555 266,1559 266,1550 " fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="153" y="1553" style="font-size:12; font-family:Dialog.plain; fill=#333333">DC_Motor_Set(0)</text>
+<line  x1="275" y1="1545" x2="275" y2="1565" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1545" x2="125" y2="1565" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1545" x2="425" y2="1565" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="1565" x2="275" y2="1575" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="261" y="1575" width="28" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="261" y="1575" width="28" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="263" y="1591" style="font-size:12; font-family:Dialog.plain; fill=#333333">stop</text>
+<line  x1="275" y1="1595" x2="275" y2="1605" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1565" x2="125" y2="1605" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1565" x2="425" y2="1605" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="1605" x2="275" y2="1615" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="261" y="1615" width="29" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="261" y="1615" width="29" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="263" y="1631" style="font-size:12; font-family:Dialog.plain; fill=#333333">Start</text>
+<line  x1="275" y1="1635" x2="275" y2="1645" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1605" x2="125" y2="1645" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1605" x2="425" y2="1645" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1654" x2="125" y2="1654" stroke="#80b4cd" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1655" x2="125" y2="1655" stroke="#333333" stroke-width="1" fill="none"/>
+<polygon  points="125,1655 133,1650 133,1659 " fill="#333333"/>
+<polygon  points="125,1655 133,1650 133,1659 " fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="215" y="1653" style="font-size:12; font-family:Dialog.plain; fill=#333333">US_Get_Distance(53)</text>
+<line  x1="125" y1="1645" x2="125" y2="1665" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="1645" x2="275" y2="1665" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1645" x2="425" y2="1665" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1665" x2="125" y2="1675" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="1675" width="61" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="95" y="1675" width="61" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="1691" style="font-size:12; font-family:Dialog.plain; fill=#333333">choice__1</text>
+<line  x1="125" y1="1695" x2="125" y2="1705" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="1665" x2="275" y2="1705" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1665" x2="425" y2="1705" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1705" x2="425" y2="1715" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="410" y="1715" width="30" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="410" y="1715" width="30" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="412" y="1731" style="font-size:12; font-family:Dialog.plain; fill=#333333">busy</text>
+<line  x1="425" y1="1735" x2="425" y2="1745" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1705" x2="125" y2="1745" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="1705" x2="275" y2="1745" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="92" y="1745" width="67" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="92" y="1745" width="67" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="94" y="1761" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">Speed = 30</text>
+<line  x1="125" y1="1765" x2="125" y2="1775" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="1745" x2="275" y2="1775" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1745" x2="425" y2="1775" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1775" x2="125" y2="1785" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="105" y="1785" width="40" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="105" y="1785" width="40" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="107" y="1801" style="font-size:12; font-family:Dialog.plain; fill=#333333">driving</text>
+<line  x1="125" y1="1805" x2="125" y2="1815" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="1775" x2="275" y2="1815" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1775" x2="425" y2="1815" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1815" x2="425" y2="1825" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="385" y="1825" width="80" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="385" y="1825" width="80" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="387" y="1841" style="font-size:12; font-family:Dialog.plain; fill=#333333">Distance = 47</text>
+<line  x1="425" y1="1845" x2="425" y2="1855" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1815" x2="125" y2="1855" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="1815" x2="275" y2="1855" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1864" x2="275" y2="1864" stroke="#80b4cd" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1865" x2="275" y2="1865" stroke="#333333" stroke-width="1" fill="none"/>
+<polygon  points="275,1865 266,1869 266,1860 " fill="#333333"/>
+<polygon  points="275,1865 266,1869 266,1860 " fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="149" y="1863" style="font-size:12; font-family:Dialog.plain; fill=#333333">DC_Motor_Set(30)</text>
+<line  x1="275" y1="1855" x2="275" y2="1875" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1855" x2="125" y2="1875" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1855" x2="425" y2="1875" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="1875" x2="275" y2="1885" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="261" y="1885" width="28" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="261" y="1885" width="28" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="263" y="1901" style="font-size:12; font-family:Dialog.plain; fill=#333333">stop</text>
+<line  x1="275" y1="1905" x2="275" y2="1915" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1875" x2="125" y2="1915" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1875" x2="425" y2="1915" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="275" y1="1915" x2="275" y2="1925" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="261" y="1925" width="29" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="261" y="1925" width="29" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="263" y="1941" style="font-size:12; font-family:Dialog.plain; fill=#333333">Start</text>
+<line  x1="275" y1="1945" x2="275" y2="1955" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1915" x2="125" y2="1955" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="425" y1="1915" x2="425" y2="1955" stroke="#333333" stroke-width="1" fill="none"/>
+<text  x="10" y="1576" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">@0</text>
+<text  x="751" y="1576" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">@0</text>
+<text  x="117" y="1566" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">CA</text>
+<text  x="106" y="1580" style="font-size:12; font-family:Dialog.italic; font-style=italic; fill=#7710f3">waiting</text>
+<text  x="247" y="1566" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">DC_Motor</text>
+<text  x="262" y="1580" style="font-size:12; font-family:Dialog.italic; font-style=italic; fill=#7710f3">Start</text>
+<text  x="393" y="1566" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">US_Sensor</text>
+<text  x="411" y="1580" style="font-size:12; font-family:Dialog.italic; font-style=italic; fill=#7710f3">busy</text>
+</svg>
